@@ -20,3 +20,13 @@ const interval = setInterval(() => {
     countdown.innerHTML = 'Launched!';
   }
 }, 1000);
+
+// Make sure Service Workers are supported
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('sw_cached_site.js')
+      .then(reg => console.log('Service Worker: Registered Pages'))
+      .catch(err => console.log(`Service Worker: Error: ${err}`));
+  });
+}

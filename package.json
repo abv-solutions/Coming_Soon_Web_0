@@ -1,0 +1,24 @@
+{
+  "name": "Coming_Soon_Web_0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abv-solutions/Coming_Soon_Web_0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abv-solutions/Coming_Soon_Web_0/issues"
+  },
+  "homepage": "https://abv-solutions.github.io",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
